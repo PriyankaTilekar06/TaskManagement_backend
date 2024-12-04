@@ -14,7 +14,7 @@ mongoose
   const corsOptions = {
     origin: [
       'http://localhost:5173', 
-      'https://taskmanagement-app-test-frontend.onrender.com', 
+      'task-management-frontend-pearl.vercel.app', 
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true, 
