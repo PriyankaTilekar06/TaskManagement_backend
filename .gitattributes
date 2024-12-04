@@ -1,0 +1,10 @@
+# Normalize all text files to use LF line endings
+* text=auto
+
+# Binary files - do not apply line-ending normalization
+*.png binary
+*.jpg binary
+*.gif binary
+
+# Ignore node_modules directory
+node_modules/* -text
